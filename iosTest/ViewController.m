@@ -23,6 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor greenColor];
+
     BOOL  isflag = NO;
     
 //    UIView *view = [[UIView alloc]initWithFrame:CGRectMake(0, 200, 200, 200)];

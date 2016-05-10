@@ -23,6 +23,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor blueColor]; // dev  222222
+    self.view.backgroundColor = [UIColor blueColor]; // dev  333333
+
     BOOL  isflag = NO;
     
 //    UIView *view = [[UIView alloc]initWithFrame:CGRectMake(0, 200, 200, 200)];

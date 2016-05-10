@@ -22,7 +22,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor greenColor]; // master
+
+    self.view.backgroundColor = [UIColor blueColor]; // dev
 
     BOOL  isflag = NO;
     

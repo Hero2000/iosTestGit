@@ -10,4 +10,9 @@
 
 @implementation ForthViewCtr
 
+-(void)viewDidLoad{
+    [super viewDidLoad];
+
+}
+
 @end

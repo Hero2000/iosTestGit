@@ -28,7 +28,7 @@
 
     self.view.backgroundColor = [UIColor blueColor]; // dev  222222
     self.view.backgroundColor = [UIColor blueColor]; // dev  333333
-
+    self.view.backgroundColor = [UIColor blueColor]; // dev  444444
 
     BOOL  isflag = NO;
     

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4C75B1AC1CE3440000BBC22D /* ThirdViewCtr.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C75B1AB1CE3440000BBC22D /* ThirdViewCtr.m */; };
+		4C75B1B21CE3487500BBC22D /* FifthViewCtr.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C75B1B11CE3487500BBC22D /* FifthViewCtr.m */; };
 		C40D40171C79841B008FAEBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C40D40161C79841B008FAEBF /* main.m */; };
 		C40D401A1C79841B008FAEBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C40D40191C79841B008FAEBF /* AppDelegate.m */; };
 		C40D401D1C79841B008FAEBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40D401C1C79841B008FAEBF /* ViewController.m */; };
@@ -40,6 +41,8 @@
 /* Begin PBXFileReference section */
 		4C75B1AA1CE3440000BBC22D /* ThirdViewCtr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewCtr.h; sourceTree = "<group>"; };
 		4C75B1AB1CE3440000BBC22D /* ThirdViewCtr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewCtr.m; sourceTree = "<group>"; };
+		4C75B1B01CE3487500BBC22D /* FifthViewCtr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewCtr.h; sourceTree = "<group>"; };
+		4C75B1B11CE3487500BBC22D /* FifthViewCtr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewCtr.m; sourceTree = "<group>"; };
 		C40D40121C79841B008FAEBF /* iosTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40D40161C79841B008FAEBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C40D40181C79841B008FAEBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -118,6 +121,8 @@
 				4C75B1AB1CE3440000BBC22D /* ThirdViewCtr.m */,
 				C4E0448E1C9DB00000D21981 /* SecViewController.h */,
 				C4E0448F1C9DB00000D21981 /* SecViewController.m */,
+				4C75B1B01CE3487500BBC22D /* FifthViewCtr.h */,
+				4C75B1B11CE3487500BBC22D /* FifthViewCtr.m */,
 				C40D40481C798464008FAEBF /* StoryModel.h */,
 				C40D40491C798464008FAEBF /* StoryModel.m */,
 				C40D401E1C79841B008FAEBF /* Main.storyboard */,
@@ -286,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C75B1AC1CE3440000BBC22D /* ThirdViewCtr.m in Sources */,
+				4C75B1B21CE3487500BBC22D /* FifthViewCtr.m in Sources */,
 				C40D401D1C79841B008FAEBF /* ViewController.m in Sources */,
 				C40D404A1C798464008FAEBF /* StoryModel.m in Sources */,
 				C40D401A1C79841B008FAEBF /* AppDelegate.m in Sources */,

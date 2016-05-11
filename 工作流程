@@ -1,0 +1,32 @@
+工作流程 
+
+
+1   远程有两个分支  master  dev   如果有类似土耳其版本，可以添加  trDev 
+
+2   我们开发的时候都在自己本地的开发分支上开发 开发完成merage 到dev 分支 然后push
+
+3   有一个专人 负责审核dev分支  如果没问题 再提交到 master 分支  master 是一个可以发布版本的分支 
+
+
+工作流程常用命令
+
+创建自己的开发分支    git branch myDev
+切换到myDev          git checkout myDev
+
+开发完之后
+
+添加自己所有修改和添加的文件                  git add --all    
+提交文件                                   git commit  -m "xxxxxxxx"
+
+切换到开发分支(远程dev在本地的分支)           git checkout dev 
+和mydev  merge                            git merge myDev
+
+如果有冲突解决冲突
+同步远程dev分支                             git pull origin dev
+有冲突解决冲突
+提交修改                                    git push origin dev :dev
+
+
+有专人负责审核dev 分支 没有问题 merge 到 master 上
+
+
